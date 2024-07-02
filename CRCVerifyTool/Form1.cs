@@ -56,7 +56,7 @@ namespace CRCVerifyTool
                 verifyByte = HexStringToByteArray(dataField.Text);
             }
             CRCCrcAlgorithm algorithm = Enum.Parse<CRCCrcAlgorithm>(standardCrcType_cmb.SelectedItem as string);
-            this.verifyoutCom_text.Text = "0x"+CRCUtil.Compute(verifyByte,algorithm,true).ToString("X4");
+            this.verifyoutCom_text.Text = "0x"+CRCUtil.Compute(verifyByte,algorithm).ToString("X4");
 
         }
         private void format_btn_Click(object sender, EventArgs e)

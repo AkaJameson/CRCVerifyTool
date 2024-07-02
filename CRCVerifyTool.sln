@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRCVerifyTool", "CRCVerifyTool\CRCVerifyTool.csproj", "{D59588FD-8B8F-45DD-B341-554264B05156}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CrcVerifyAppSetUp", "CrcVerifyAppSetUp\CrcVerifyAppSetUp.vdproj", "{484A0966-84CC-4B50-8909-5BF9173171DD}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{32F1BC64-CE2B-4ADD-B5DE-6D02B6F497CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{D59588FD-8B8F-45DD-B341-554264B05156}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D59588FD-8B8F-45DD-B341-554264B05156}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D59588FD-8B8F-45DD-B341-554264B05156}.Release|Any CPU.Build.0 = Release|Any CPU
-		{484A0966-84CC-4B50-8909-5BF9173171DD}.Debug|Any CPU.ActiveCfg = Debug
-		{484A0966-84CC-4B50-8909-5BF9173171DD}.Release|Any CPU.ActiveCfg = Release
+		{32F1BC64-CE2B-4ADD-B5DE-6D02B6F497CA}.Debug|Any CPU.ActiveCfg = Debug
+		{32F1BC64-CE2B-4ADD-B5DE-6D02B6F497CA}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
