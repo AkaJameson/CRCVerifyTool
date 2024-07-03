@@ -26,7 +26,9 @@ namespace CRCVerifyTool
             dataType_cmb.DataSource = dataTypeItems;
             dataType_cmb.DisplayMember = "Name";
             dataType_cmb.ValueMember = "dataType";
-
+            //≈‰÷√¥∞ÃÂ◊‘  ”¶
+            responsiveLayout = new(this.Width, this.Height);
+            responsiveLayout.SetTag(this);
 
         }
 
@@ -56,12 +58,12 @@ namespace CRCVerifyTool
                 verifyByte = HexStringToByteArray(dataField.Text);
             }
             CRCCrcAlgorithm algorithm = Enum.Parse<CRCCrcAlgorithm>(standardCrcType_cmb.SelectedItem as string);
-            this.verifyoutCom_text.Text = "0x"+CRCUtil.Compute(verifyByte,algorithm).ToString("X4");
+            this.verifyoutCom_text.Text = "0x" + CRCUtil.Compute(verifyByte, algorithm).ToString("X4");
 
         }
         private void format_btn_Click(object sender, EventArgs e)
         {
-            if((dataType_cmb.SelectedItem as DataTypeItem).dataType.Equals(DataType.STRING))
+            if ((dataType_cmb.SelectedItem as DataTypeItem).dataType.Equals(DataType.STRING))
             {
                 return;
             }
@@ -197,9 +199,18 @@ namespace CRCVerifyTool
         };
         CRCParamter paramter;
         byte[] verifyByte;
+
+        ResponsiveLayout responsiveLayout;
         #endregion
 
-       
+
+   
+
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            responsiveLayout.ResizeWindowLayout(this);
+
+        }
     }
 
 

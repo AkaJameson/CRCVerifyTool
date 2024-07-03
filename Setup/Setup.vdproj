@@ -15,49 +15,49 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_285D5050DFDC429EA6BF73305115CDDC"
+        "MsmKey" = "8:_38D20421FE8D4B15B43B0F3C154AEEE6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_325AC5A91DDD4A0FB27B8646700FBF4B"
+        "MsmKey" = "8:_404FFC54F63F4119A8921780721DD153"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_42B1380BFAAC4D0B82A01640F556DB1D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4ECC0C68C411418C886AE44020EB35CF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_56EAC8ABD9B41175A558B2652CC4787E"
-        "OwnerKey" = "8:_954B351CBE93437DAFF13BC0C9193A0B"
+        "OwnerKey" = "8:_B07F9910A5E540348F6336E7BEEEB4DA"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_954B351CBE93437DAFF13BC0C9193A0B"
+        "MsmKey" = "8:_8810E94297A6455F89F3F3C41448C591"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_9FE1CBB6E7764CDA8F7DD95A9A4835E1"
+        "MsmKey" = "8:_B07F9910A5E540348F6336E7BEEEB4DA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A5013C12D79A4F7781EFD39293619D07"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B91896F1CB3D4BDA9EB42A6FDE8F2FCD"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C764EC5BC98E41B0906CF57920709A38"
+        "MsmKey" = "8:_B30898B7F6984EFD8173CE634F11486D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -70,13 +70,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A5013C12D79A4F7781EFD39293619D07"
+        "OwnerKey" = "8:_404FFC54F63F4119A8921780721DD153"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_954B351CBE93437DAFF13BC0C9193A0B"
+        "OwnerKey" = "8:_B07F9910A5E540348F6336E7BEEEB4DA"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -97,6 +97,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -168,7 +184,7 @@
         }
         "File"
         {
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_285D5050DFDC429EA6BF73305115CDDC"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_38D20421FE8D4B15B43B0F3C154AEEE6"
             {
             "SourcePath" = "8:..\\CRCVerifyTool\\bin\\Release\\net6.0-windows\\CRCVerifyTool.deps.json"
             "TargetName" = "8:CRCVerifyTool.deps.json"
@@ -188,10 +204,61 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_325AC5A91DDD4A0FB27B8646700FBF4B"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_404FFC54F63F4119A8921780721DD153"
             {
-            "SourcePath" = "8:..\\CRCVerifyTool\\bin\\Release\\net6.0-windows\\CRCVerifyTool.pdb"
-            "TargetName" = "8:CRCVerifyTool.pdb"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DotNet.Util.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_404FFC54F63F4119A8921780721DD153"
+                    {
+                    "Name" = "8:DotNet.Util.Core.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:..\\CRCVerifyTool\\bin\\Release\\net6.0-windows\\DotNet.Util.Core.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_42B1380BFAAC4D0B82A01640F556DB1D"
+            {
+            "SourcePath" = "8:C:\\Windows\\System32\\msiexec.exe"
+            "TargetName" = "8:Uninstall.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4ECC0C68C411418C886AE44020EB35CF"
+            {
+            "SourcePath" = "8:..\\CRCVerifyTool\\bin\\Release\\net6.0-windows\\CRCVerifyTool.runtimeconfig.json"
+            "TargetName" = "8:CRCVerifyTool.runtimeconfig.json"
             "Tag" = "8:"
             "Folder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
             "Condition" = "8:"
@@ -239,14 +306,34 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_954B351CBE93437DAFF13BC0C9193A0B"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8810E94297A6455F89F3F3C41448C591"
+            {
+            "SourcePath" = "8:..\\CRCVerifyTool\\bin\\Release\\net6.0-windows\\CRCVerifyTool.exe"
+            "TargetName" = "8:CRCVerifyTool.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B07F9910A5E540348F6336E7BEEEB4DA"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:CRCVerifyTool, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_954B351CBE93437DAFF13BC0C9193A0B"
+                    "_B07F9910A5E540348F6336E7BEEEB4DA"
                     {
                     "Name" = "8:CRCVerifyTool.dll"
                     "Attributes" = "3:512"
@@ -270,81 +357,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9FE1CBB6E7764CDA8F7DD95A9A4835E1"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B30898B7F6984EFD8173CE634F11486D"
             {
-            "SourcePath" = "8:..\\CRCVerifyTool\\bin\\Release\\net6.0-windows\\CRCVerifyTool.exe"
-            "TargetName" = "8:CRCVerifyTool.exe"
-            "Tag" = "8:"
-            "Folder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A5013C12D79A4F7781EFD39293619D07"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DotNet.Util.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_A5013C12D79A4F7781EFD39293619D07"
-                    {
-                    "Name" = "8:DotNet.Util.Core.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\CRCVerifyTool\\bin\\Release\\net6.0-windows\\DotNet.Util.Core.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B91896F1CB3D4BDA9EB42A6FDE8F2FCD"
-            {
-            "SourcePath" = "8:..\\CRCVerifyTool\\bin\\Release\\net6.0-windows\\CRCVerifyTool.runtimeconfig.json"
-            "TargetName" = "8:CRCVerifyTool.runtimeconfig.json"
-            "Tag" = "8:"
-            "Folder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C764EC5BC98E41B0906CF57920709A38"
-            {
-            "SourcePath" = "8:C:\\Windows\\System32\\msiexec.exe"
-            "TargetName" = "8:uninstall"
+            "SourcePath" = "8:..\\CRCVerifyTool\\bin\\Release\\net6.0-windows\\CRCVerifyTool.pdb"
+            "TargetName" = "8:CRCVerifyTool.pdb"
             "Tag" = "8:"
             "Folder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
             "Condition" = "8:"
@@ -376,6 +392,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_63F846AFFF4A441AB692882064F93A3C"
+                    {
+                    "Name" = "8:CRC校验工具"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_B7D7B7494CC64AF790AE68D0FF9E0AFF"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_C0676BEDE0DB40718B4C76D698EC8CF0"
@@ -418,7 +445,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Setup"
         "ProductCode" = "8:{AC8DED27-9E14-4ABA-ABB8-6A551DCFBDC6}"
-        "PackageCode" = "8:{C8BE9E48-04CA-4D1B-96F2-3FD9BFCF958F}"
+        "PackageCode" = "8:{78496685-093C-4A1F-B650-66AAA7C22EAC}"
         "UpgradeCode" = "8:{C962A42D-A924-4514-9B0C-14BF0EAA7B31}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -426,12 +453,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:xwandlmx@outlook.com"
+        "Manufacturer" = "8:Copyright xinjingjue"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Setup"
+        "Title" = "8:CRC校验工具"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:xwandlmx@outlook.com"
+        "ARPCONTACT" = "8:辛京爵"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -538,44 +565,44 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2F9BED86C8B2477AACFECE4899FDCB1B"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_04CCACD4422F42EFA89F1F5825FDDB91"
             {
-            "Name" = "8:CRC校验工具"
+            "Name" = "8:CRC校验程序"
             "Arguments" = "8:"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_9FE1CBB6E7764CDA8F7DD95A9A4835E1"
-            "Folder" = "8:_FCF21C15E8754D49B91E9C1BB06B9B7F"
+            "Target" = "8:_8810E94297A6455F89F3F3C41448C591"
+            "Folder" = "8:_63F846AFFF4A441AB692882064F93A3C"
             "WorkingFolder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
             "Icon" = "8:"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_B2A7F3A37119446096E3C47AC5AF87EA"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_48BA7605C9D7428480B438FF5170727D"
             {
-            "Name" = "8:CRC校验工具"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_9FE1CBB6E7764CDA8F7DD95A9A4835E1"
-            "Folder" = "8:_9693F48F15E64D468D9D22A31EC2581B"
-            "WorkingFolder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
-            "Icon" = "8:"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_C894272909E941DA9B1C85709EA64FEB"
-            {
-            "Name" = "8:CRC校验工具卸载程序"
+            "Name" = "8:CRC卸载程序"
             "Arguments" = "8:/x {AC8DED27-9E14-4ABA-ABB8-6A551DCFBDC6}"
             "Description" = "8:"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_C764EC5BC98E41B0906CF57920709A38"
-            "Folder" = "8:_9693F48F15E64D468D9D22A31EC2581B"
+            "Target" = "8:_42B1380BFAAC4D0B82A01640F556DB1D"
+            "Folder" = "8:_63F846AFFF4A441AB692882064F93A3C"
+            "WorkingFolder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
+            "Icon" = "8:"
+            "Feature" = "8:"
+            }
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DD0213DDB94F43C4B3B8CFEBD911F408"
+            {
+            "Name" = "8:CRC校验工具"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_8810E94297A6455F89F3F3C41448C591"
+            "Folder" = "8:_FCF21C15E8754D49B91E9C1BB06B9B7F"
             "WorkingFolder" = "8:_C0676BEDE0DB40718B4C76D698EC8CF0"
             "Icon" = "8:"
             "Feature" = "8:"
