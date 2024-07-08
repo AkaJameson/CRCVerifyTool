@@ -7,6 +7,7 @@ namespace CRCVerifyTool
     {
         public Form1()
         {
+            
             InitializeComponent();
             Init();
         }
@@ -26,9 +27,7 @@ namespace CRCVerifyTool
             dataType_cmb.DataSource = dataTypeItems;
             dataType_cmb.DisplayMember = "Name";
             dataType_cmb.ValueMember = "dataType";
-            //≈‰÷√¥∞ÃÂ◊‘  ”¶
-            responsiveLayout = new(this.Width, this.Height);
-            responsiveLayout.SetTag(this);
+            
 
         }
 
@@ -200,7 +199,7 @@ namespace CRCVerifyTool
         CRCParamter paramter;
         byte[] verifyByte;
 
-        ResponsiveLayout responsiveLayout;
+        ResponsiveLayout responsiveLayout ;
         #endregion
 
 
@@ -208,7 +207,7 @@ namespace CRCVerifyTool
 
         private void Form1_Resize(object sender, EventArgs e)
         {
-            responsiveLayout.ResizeWindowLayout(this);
+            /*responsiveLayout.ResizeWindowLayout(this);*/
 
         }
     }
